@@ -1,0 +1,51 @@
+@import url(./reset.css);
+@import url(./style.css);
+@import url(./assets/Fonts/stylesheet.css);
+/* @import url(./footer.css); */
+body {
+    font-family: 'ALS Hauss';
+    font-size: 16pt;
+    /* background-color: #162339; */
+    background: linear-gradient(180deg, #162339 40%, #2B456F 67%, #162339 100%);
+    --webkit-header-color: #13294D;
+    --webkit-header-nav: #F1F6FF;
+    --webkit-color-btn: #EAF0F7;
+}
+.container {
+    max-width: 1660px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 6.875rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+h2 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+h3 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+button {
+    padding: 15px 24px;
+    font-family: 'ALS Hauss';
+    font-weight: 400;
+    font-size: 1.125rem;
+    border-radius: 30px;
+}
+a {
+    /* color: blue; */
+    transition: color 1.5s ease;
+  }
